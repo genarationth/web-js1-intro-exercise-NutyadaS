@@ -1,8 +1,8 @@
 function changeName() {
   let inputName;
   let person = prompt("What is your name?", "Peter Parker");
+  alert("Hello " + person);
   if (person == null || person == "") {
-    inputName = "Hello";
   } else {
     inputName = "Hello " + person;
   }
