@@ -13,19 +13,6 @@
     <input type="button" onclick="changeName();" name="change" value="Change the name" />
 
     <script src="script.js"></script>
-
-    <script>
-        function changeName() {
-            let inputName;
-            let person = prompt("What is your name?", "Peter Parker");
-            if (person == null || person == "") {
-                inputName = "Hello";
-            } else {
-                inputName = "Hello " + person;
-            }
-            document.getElementById("inputName").innerHTML = inputName;
-        }
-    </script>
 </body>
 
 </html>
